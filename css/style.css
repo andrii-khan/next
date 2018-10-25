@@ -469,6 +469,7 @@ header img {
 	justify-content: center;
 	opacity: 0.3;
 	transition: opacity .3s ease-in;
+	border-radius: 50%;
 }
 .ba-back-to-top:hover {
 	opacity: 1;
