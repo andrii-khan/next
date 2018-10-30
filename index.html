@@ -13,7 +13,8 @@
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link href="dist/hamburgers.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 
@@ -47,7 +48,11 @@
 					<p>that make <span class="ba-hero__desc">you</span> proud</p>
 				</div>
 				<div class="ba-scroll">
-					<a href="#form"><img src="img/scroll.png" alt=""></a>
+					<a class="ba-scroll-link" href="#form">
+						<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+							<path fill-rule="evenodd" stroke-width="2" stroke="#EEE" fill="#FFF" d="M29 5h2c13.255 0 24 10.745 24 24v2c0 13.255-10.745 24-24 24h-2C15.745 55 5 44.255 5 31v-2C5 15.745 15.745 5 29 5z" />
+							<path fill-rule="evenodd" fill="#D22425" d="M38.006 26.827L30 35.006l-8.006-8.179 1.779-1.818L30 31.371l6.227-6.362 1.779 1.818z" /></svg>
+					</a>
 				</div>
 			</div>
 		</section>
@@ -131,8 +136,11 @@
 
 		<section class="ba-section-slider">
 			<div class="ba-container">
-				<h2 class="ba-slider-title">Recent Works</h2>
-				<span class="ba-slider-bg">Some Designs</span>
+				<h2 class="ba-slider-title">
+					Recent Works
+					<span class="ba-slider-bg">Some Designs</span>
+				</h2>
+
 				<div class="ba-slider">
 					<div class="ba-slider-img">
 						<h2 class="ba-slider-img__title">Innovative Design</h2>
@@ -149,8 +157,11 @@
 		<section class="ba-section-contactUs">
 			<div class="ba-container">
 				<span class="ba-contactUs-bg">Contact Us</span>
+
 				<div class="ba-contactUs-text">
-					<h2 class="ba-contactUs-title">Contact Us</h2>
+					<h2 class="ba-contactUs-title">
+						Contact Us
+					</h2>
 					<p>Selection of Award winning cleani are deyi web sites or andi are the websites with a strong use of clean
 						design. It is reui sually.</p>
 				</div>
@@ -177,9 +188,9 @@
 				</form>
 			</div>
 		</section>
-		<div class="ba-back-to-top" id="back-to-top">
-			<a href="#menu"><i class="fas fa-arrow-up"></i></a>
-		</div>
+		<a href="#menu" class="ba-back-to-top" id="back-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</a>
 		<footer class="ba-footer">
 			<p>Designed with <span><img src="img/hearth.svg" alt=""></span> by Rikon Rahman</p>
 			<p>Next Technologies &copy; 2018</p>
